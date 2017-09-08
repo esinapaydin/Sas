@@ -1,11 +1,15 @@
 html{
   font-size: 18px;
+  font-family: Helvetica;
 }
 .sitecontainer{
-  background-color:black;
   display: flex;
-  align-items: center;
-  width: 960px;
+  align-items: center;  
+  max-width: 960px;
+  margin:0 auto;
+}
+.sc{
+  background-color:black;
 }
 header span{
   color: white;
@@ -36,11 +40,33 @@ header span{
   padding: 2rem 3rem;
   top:9rem;
   position:relative;
+  max-width:960px;
 }
 .main{
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
 height:25rem;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size:cover;
+}
+.main2{
+  max-width: 960px;
+  margin:0 auto;
+}
+.ul{
+  padding: 0.75rem;
+  color:white;
+  list-style-type: none;
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.menu{
+  background-color:firebrick;
 }
 
-
-
+.m{
+  max-width: 960px;
+  margin:0px auto;
+}
