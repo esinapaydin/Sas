@@ -41,6 +41,7 @@ header span{
   top:9rem;
   position:relative;
   max-width:960px;
+  height:9.4rem;
 }
 .main{
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
